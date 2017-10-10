@@ -1,4 +1,4 @@
-(function () {
+function () {
   'use strict';
 
   angular
@@ -26,12 +26,10 @@
       });
     });
 
-    $stateProvider
-      .state('blog', {
+    $stateProvider.state('blog', {
         url: '/blog',
         templateUrl: '/modules/blog/client/views/blog.client.view.html',
         controller: 'BlogController',
         controllerAs: 'vm'
-      })
-      }
-}());
+    });
+}();

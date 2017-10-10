@@ -1,0 +1,156 @@
+
+> www-elo-com@0.6.0 start /home/ogparry1/Documents/School/2017-18/Fall/CEN3031/SemesterProject
+> gulp
+
+[22:43:22] Using gulpfile ~/Documents/School/2017-18/Fall/CEN3031/SemesterProject/gulpfile.js
+[22:43:22] Starting 'default'...
+[22:43:22] Starting 'env:dev'...
+[22:43:22] Finished 'env:dev' after 116 μs
+[22:43:22] Starting 'copyLocalEnvConfig'...
+[22:43:22] Starting 'makeUploadsDir'...
+[22:43:22] Finished 'makeUploadsDir' after 306 μs
+[22:43:22] Finished 'copyLocalEnvConfig' after 8.05 ms
+[22:43:22] Starting 'lint'...
+[22:43:22] Starting 'less'...
+[22:43:22] Finished 'less' after 257 ms
+[22:43:22] Starting 'sass'...
+[22:43:22] Finished 'sass' after 40 ms
+[22:43:22] Starting 'csslint'...
+[22:43:22] Starting 'eslint'...
+
+
+csslint: There are 21 problems in /home/ogparry1/Documents/School/2017-18/Fall/CEN3031/SemesterProject/modules/blog/client/css/blog.client.view.css.
+
+blog.client.view.css
+1: warning at line 6, col 1
+Don't use IDs in selectors.
+#navbar-font{
+
+blog.client.view.css
+2: warning at line 9, col 1
+Rule doesn't have all its properties in alphabetical order.
+#paragraph-post{
+
+blog.client.view.css
+3: warning at line 9, col 1
+Don't use IDs in selectors.
+#paragraph-post{
+
+blog.client.view.css
+4: error at line 10, col 21
+Expected RBRACE at line 10, col 21.
+	text-align: center | justify;
+
+blog.client.view.css
+5: warning at line 16, col 1
+Don't use IDs in selectors.
+#paragraph-postAbout{
+
+blog.client.view.css
+6: warning at line 23, col 1
+Don't use IDs in selectors.
+#paragraph-postDetails{
+
+blog.client.view.css
+7: warning at line 23, col 1
+Rule doesn't have all its properties in alphabetical order.
+#paragraph-postDetails{
+
+blog.client.view.css
+8: warning at line 32, col 1
+Rule doesn't have all its properties in alphabetical order.
+.image{
+
+blog.client.view.css
+9: warning at line 41, col 1
+Rule doesn't have all its properties in alphabetical order.
+.textTop{
+
+blog.client.view.css
+10: warning at line 55, col 1
+Rule is empty.
+.textTop button{
+
+blog.client.view.css
+11: warning at line 59, col 1
+Rule doesn't have all its properties in alphabetical order.
+.textResume{
+
+blog.client.view.css
+12: warning at line 69, col 1
+Rule doesn't have all its properties in alphabetical order.
+.text{
+
+blog.client.view.css
+13: warning at line 86, col 1
+Rule doesn't have all its properties in alphabetical order.
+.post{
+
+blog.client.view.css
+14: warning at line 98, col 1
+Rule doesn't have all its properties in alphabetical order.
+.postResume{
+
+blog.client.view.css
+15: warning at line 109, col 1
+Rule doesn't have all its properties in alphabetical order.
+.conclusion{
+
+blog.client.view.css
+16: warning at line 118, col 1
+Rule doesn't have all its properties in alphabetical order.
+a.button {
+
+blog.client.view.css
+17: warning at line 126, col 1
+Rule doesn't have all its properties in alphabetical order.
+.navbar-nav {
+
+blog.client.view.css
+18: warning at line 131, col 1
+Rule doesn't have all its properties in alphabetical order.
+.navbar-nav  li {
+
+blog.client.view.css
+19: warning at line 141, col 1
+Rule doesn't have all its properties in alphabetical order.
+div.blog_container {
+
+blog.client.view.css
+20: warning at line 150, col 1
+Rule doesn't have all its properties in alphabetical order.
+div.blog_post {
+
+blog.client.view.css
+21: warning at line 164, col 1
+Rule doesn't have all its properties in alphabetical order.
+h1.title {[22:43:22] Finished 'csslint' after 486 ms
+[22:43:24] 
+/home/ogparry1/Documents/School/2017-18/Fall/CEN3031/SemesterProject/modules/blog/client/config/blog.client.routes.js
+  1:10  error  Parsing error: Unexpected token (
+
+/home/ogparry1/Documents/School/2017-18/Fall/CEN3031/SemesterProject/modules/blog/client/views/blog.client.view.js
+  17:3  error  Read-only global 'scroll' should not be modified  no-native-reassign
+
+✖ 2 problems (2 errors, 0 warnings)
+
+[22:43:24] Finished 'eslint' after 2.24 s
+[22:43:24] Finished 'lint' after 2.58 s
+[22:43:24] Starting 'nodemon'...
+[22:43:24] Finished 'nodemon' after 30 ms
+[22:43:24] Starting 'watch'...
+[22:43:24] Finished 'watch' after 76 ms
+[22:43:24] Finished 'default' after 2.7 s
+[[90m22:43:24[39m] [33m[nodemon] 1.11.0[39m
+[[90m22:43:24[39m] [33m[nodemon] to restart at any time, enter `rs`[39m
+[[90m22:43:24[39m] [33m[nodemon] ignoring: /home/ogparry1/Documents/School/2017-18/Fall/CEN3031/SemesterProject/.git/**/* .nyc_output .sass-cache bower_components coverage /home/ogparry1/Documents/School/2017-18/Fall/CEN3031/SemesterProject/node_modules/**/*[39m
+[[90m22:43:24[39m] [33m[nodemon] watching: modules/*/server/views/*.html server.js config/**/*.js modules/*/server/**/*.js modules/*/server/config/*.js[39m
+[[90m22:43:24[39m] [33m[nodemon] watching extensions: js,html[39m
+[[90m22:43:24[39m] [33m[nodemon] starting `node --inspect server.js`[39m
+[[90m22:43:24[39m] [33m[nodemon] child pid: 6010[39m
+[[90m22:43:24[39m] [33m[nodemon] watching 220 files[39m
+
+
++ Important warning: config.domain is empty. It should be set to the fully qualified domain of the app.
+[[90m22:43:25[39m] [33m[nodemon] clean exit - waiting for changes before restart[39m
+[[90m22:57:59[39m] [33m[nodemon] exiting[39m

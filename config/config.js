@@ -228,3 +228,8 @@ var initGlobalConfig = function () {
  * Set configuration object
  */
 module.exports = initGlobalConfig();
+module.exports = {
+  db: {
+    uri: 'mongodb://admin:teamelo@ds161194.mlab.com:61194/elo_webapp'
+  }
+};
