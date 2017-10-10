@@ -1,3 +1,6 @@
+
+// JS just in case we want to smooth scroll to different places on the same page
+
 window.smoothScroll = function(target) {
     var scrollContainer = target;
     do {
