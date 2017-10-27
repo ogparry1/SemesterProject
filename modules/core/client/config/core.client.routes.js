@@ -33,6 +33,30 @@
         controller: 'HomeController',
         controllerAs: 'vm'
       })
+      .state('about', {
+        url: '/about',
+        templateUrl: '/modules/core/client/views/about.client.view.html',
+        controller: 'HomeController',
+        controllerAs: 'vm'
+      })
+      .state('blog', {
+        url: '/blog',
+        templateUrl: '/modules/blog/client/views/list-blogposts.client.view.html',
+        controller: 'BlogpostsController',
+        controllerAs: 'vm'
+      })
+      .state('contactme', {
+        url: '/contact',
+        templateUrl: '/modules/core/client/views/contactme.client.view.html',
+        controller: 'HomeController',
+        controllerAs: 'vm'
+      })
+      .state('login', {
+        url: '/login',
+        templateUrl: '/modules/users/client/views/authentication/signin.client.view.html',
+        controller: 'AuthenticationController',
+        controllerAs: 'vm'
+      })
       .state('not-found', {
         url: '/not-found',
         templateUrl: '/modules/core/client/views/404.client.view.html',
